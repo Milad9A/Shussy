@@ -14,8 +14,8 @@
             <img
                 src="https://avatars.dicebear.com/api/avataaars/m.svg?mood[]=happy"
                 alt="your avatar"
-                height="40"
-                width="40"
+                height="45"
+                width="45"
                 class="rounded-full mr-2"
             >
             <button
