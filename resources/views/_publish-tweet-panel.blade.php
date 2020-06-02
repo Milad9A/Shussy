@@ -6,11 +6,13 @@
             name="body"
             class="w-full"
             placeholder="what's up doc?"
+            required
+            autofocus
         ></textarea>
 
         <hr class="my-4">
 
-        <footer class="flex justify-between">
+        <footer class="flex justify-between items-center">
             <img
                 src="https://avatars.dicebear.com/api/avataaars/m.svg?mood[]=happy"
                 alt="your avatar"
@@ -20,7 +22,7 @@
             >
             <button
                 type="submit"
-                class="bg-blue-500 rounded-lg shadow py-2 px-2 text-white"
+                class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 py-2 text-sm text-white"
             >
                 Tweet-a-roo!
             </button>
