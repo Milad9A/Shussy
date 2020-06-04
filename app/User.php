@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Http\Controllers\Like;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -42,6 +43,7 @@ class User extends Authenticatable
 
         return Tweet::whereIn('user_id', $friends)
             ->orWhere('user_id', $this->id)
+            ->withLikes()
             ->latest()->paginate(50);
     }
 
@@ -58,5 +60,10 @@ class User extends Authenticatable
     public function getAvatarAttribute($value)
     {
         return $value ? '/storage/' . $value : 'images/lana-avatar.jpg';
+    }
+
+    public function likes()
+    {
+        return $this->hasMany(Like::class);
     }
 }

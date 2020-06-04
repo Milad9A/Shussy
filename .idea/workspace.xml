@@ -3,19 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4dfa752e-a2f8-442a-859f-c8d53eb5f154" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Followable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Tweet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tweet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +194,8 @@
       <workItem from="1590775738266" duration="23000" />
       <workItem from="1590839393995" duration="6779000" />
       <workItem from="1590918060061" duration="12827000" />
-      <workItem from="1591095883221" duration="8126000" />
+      <workItem from="1591095883221" duration="8941000" />
+      <workItem from="1591293626225" duration="8044000" />
     </task>
     <servers />
   </component>
@@ -219,22 +211,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="36" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590440035444" />
-    <state x="86" y="37" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1590863231226">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591295409632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="86" y="37" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.0.1536.824@0.0.1536.824" timestamp="1590863231226" />
-    <state x="135" y="213" key="NewPhpClassDialog" timestamp="1590863169864">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591295409632" />
+    <state x="86" y="37" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1591309396673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="135" y="213" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1590863169864" />
+    <state x="86" y="37" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.0.1536.824@0.0.1536.824" timestamp="1591309396673" />
+    <state x="135" y="213" key="NewPhpClassDialog" timestamp="1591309360062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="135" y="213" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1591309360062" />
     <state x="0" y="57" key="SettingsEditor" timestamp="1590919548534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590919548534" />
-    <state x="166" y="139" width="672" height="678" key="search.everywhere.popup" timestamp="1591117579951">
+    <state x="166" y="139" width="672" height="678" key="search.everywhere.popup" timestamp="1591312430356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="166" y="139" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591117579951" />
+    <state x="166" y="139" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591312430356" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
