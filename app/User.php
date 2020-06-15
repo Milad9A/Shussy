@@ -5,10 +5,11 @@ namespace App;
 use App\Http\Controllers\Like;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Passport\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use Notifiable, Followable;
+    use HasApiTokens, Notifiable, Followable;
 
     /**
      * The attributes that are mass assignable.
@@ -44,6 +45,7 @@ class User extends Authenticatable
         return Tweet::whereIn('user_id', $friends)
             ->orWhere('user_id', $this->id)
             ->withLikes()
+            ->with('user')
             ->latest()->paginate(50);
     }
 
